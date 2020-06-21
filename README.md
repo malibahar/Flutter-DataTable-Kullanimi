@@ -27,16 +27,27 @@ DataColumn özelliği Widget değerini alır. DataCell ayrıca widget'ı bir de�
     @zorunlu List<DataRow> rows
     })
 DataTable widget’ının aldığı özellikler yukarıda ki gibi olmalıdır. Burada rows ve columns bölümleri zorunludur. Diğerleri ise isteklerinize göre düzenleyebilirsiniz. 
+
 Columns: List tipinde bir dizi değeri almaktadır. Belirtilmesi zorunludur.
+
 Rows: List titpinde bir dizi değeri almaktadır. Belirtilmesi zorunludur.
+
 SortColumnIndex: Verilerin sıralaması için kullanılacak veri alanını belirtmektedir. Oluşturulan tablonun sütun indisi eklenerek belirlenir. 0 ve column dizisi uzunluğu arasında bir değer almaktadır.
+
 SortAscendin: Oluşturulan listenin sıralamasını belirtir true/false değer almaktadır. True değeri küçükten büyüğe, false değer, büyükten küçüğe sıralama yapmaktadır.
+
 OnSelectAll: Oluşturulan listede tüm alanların seçilmesi durumda (Tablonun başında bulun hepsini seç onay kutucuğu işaretlendiği zaman) yapılacak işlemleri belirtir.
+
 DataRowHeight: Veri alanlarının başlık bölümü için satır yüksekliğini ayarlamaktadır.
+
 HorizontalMargin: Yatay dış boşluk değerini ayarlamaktadır. 
+
 ColumnSpacing: Sütunların genişliklerini ayarlamak için kullanılmaktadır.
+
 ShowCheckboxColumn: Satırlar için checkedbox eklemektedir. Not; Mevcut sürümde bulunmamaktadır, sürüm değiştirmek gerekmektedir. Bu yüzden bunun yerine onSelectChanged fonksiyonu kullanılmaktadır.
+
 Flutter DataTable Widget Örnek Uygulama:
+
  
  
  
