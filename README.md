@@ -12,20 +12,20 @@ DataTable(
 ],)
 Örnek kod yapısında da görüldüğü üzere sütunlar aracılığıyla veri alanları belirlenir. Sonrasında da satır ile veriler eklenir. Satırlar içerisinde hücreler oluşturulup, her hücre içerisine sütun karşılığında ki veri eklenir.
 
-DataTable ({    
-Özellik Değer,
-@zorunlu List<DataColumn> columns,
-int sortColumnIndex,
-bool sortAscending: true,
-ValueSetter<bool> onSelectAll,
-double dataRowHeight: kMinInteractiveDimension,
-double headingRowHeight: 56.0,
-double horizontalMargin: 24.0,
-double columnSpacing: 56.0,
-bool showCheckboxColumn: true,
-double dividerThickness: 1.0,
-@zorunlu List<DataRow> rows
-})
+    DataTable ({    
+    Özellik Değer,
+    @zorunlu List<DataColumn> columns,
+    int sortColumnIndex,
+    bool sortAscending: true,
+    ValueSetter<bool> onSelectAll,
+    double dataRowHeight: kMinInteractiveDimension,
+    double headingRowHeight: 56.0,
+    double horizontalMargin: 24.0,
+    double columnSpacing: 56.0,
+    bool showCheckboxColumn: true,
+    double dividerThickness: 1.0,
+    @zorunlu List<DataRow> rows
+    })
 DataTable widget’ının aldığı özellikler yukarıda ki gibi olmalıdır. Burada rows ve columns bölümleri zorunludur. Diğerleri ise isteklerinize göre düzenleyebilirsiniz. 
 Columns: List tipinde bir dizi değeri almaktadır. Belirtilmesi zorunludur.
 Rows: List titpinde bir dizi değeri almaktadır. Belirtilmesi zorunludur.
