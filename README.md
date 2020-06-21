@@ -5,11 +5,11 @@ DataTable: Excel sayfalarına benzeyen bir yapıya sahip olan; satır ve sütunl
 DataTable sütunlar ve satırlarda oluşur. column özelliği DataColumn dizisini alır ve rows özelliği de DataRow dizisini alır. Her DataRow, DataCell dizisini alan hücre özelliğine sahiptir.
 DataColumn özelliği Widget değerini alır. DataCell ayrıca widget'ı bir değer olarak alır. Bu sayede metin, resim, simge, onay kutusu veya başka herhangi bir widget hücreler içerisinde kullanılabilir.
 
-DataTable(
-    columns: [DataColumn(label: Text(Sıra)), DataColumn(label: Text('Ad')), ], 
-    rows: [DataRow(
-         cells: [DataCell(Text('1')),DataCell(Text('Muhammed Ali')),])
-],)
+    DataTable(
+        columns: [DataColumn(label: Text(Sıra)), DataColumn(label: Text('Ad')), ], 
+        rows: [DataRow(
+             cells: [DataCell(Text('1')),DataCell(Text('Muhammed Ali')),])
+    ],)
 Örnek kod yapısında da görüldüğü üzere sütunlar aracılığıyla veri alanları belirlenir. Sonrasında da satır ile veriler eklenir. Satırlar içerisinde hücreler oluşturulup, her hücre içerisine sütun karşılığında ki veri eklenir.
 
     DataTable ({    
